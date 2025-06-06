@@ -1,5 +1,4 @@
-
-  const data= [
+const data = [
   {
     id: 1,
     question: "What is React?",
@@ -26,5 +25,6 @@
     answer: "Props are inputs to components. They are passed as arguments and used to render dynamic content."
   }
 ];
+
 
 export default data;
