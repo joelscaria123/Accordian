@@ -2,14 +2,15 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import Accordian from './components/accordian'
+import RandomColor from './random-color'
 
 function App() {
-  return (
-    <div className='App'>
-       <Accordian/>  
-    </div>
-  )
+   return (
+      <div className="App">
+      
+      <RandomColor/>
+      </div>
+   )
 }
 
 export default App
